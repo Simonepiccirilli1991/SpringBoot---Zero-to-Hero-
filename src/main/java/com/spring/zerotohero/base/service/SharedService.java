@@ -1,8 +1,6 @@
 package com.spring.zerotohero.base.service;
 
 import com.spring.zerotohero.base.model.shared.BaseProperty;
-import com.spring.zerotohero.base.model.shared.Opera;
-import com.spring.zerotohero.base.model.shared.OperaTemporanea;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;

@@ -73,5 +73,6 @@ public class BootStrapData implements CommandLineRunner {
         var resp = sharedService.getOpera(new Opera().getClass());
 
         System.out.println("Response: "+ resp.toString());
+        System.out.println("CodiceOpera: "+resp.getCodiceOpera());
     }
 }
