@@ -27,7 +27,7 @@ public class SharedService {
 
     public BaseProperty getOpera(Class <?> cls){
 
-        var resp = opere.stream().filter( op -> cls.equals(op)).findFirst();
+        var resp = opere.stream().filter( op -> cls.equals(op.getClass())).findAny();
 
         if(resp.isPresent())
             return resp.get();
